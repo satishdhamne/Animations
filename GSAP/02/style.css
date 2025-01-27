@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+
+#nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.492);
+    padding: 20px;
+}
+#nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav h3{
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#nav h2{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#center {
+    width: 100%;
+    height: calc(100% - 50px);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+#center #left{
+    width: 45%;
+    height: 100%;
+}
+
+#center #left h1{
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: 50px;
+}
+
+#center button{
+    padding: 20px 30px;
+    background-color: #00b4d0;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+#center #right {
+    width: 45%;
+    height: 100%;
+    background-image: url(https://www.vecteezy.com/video/15664329-airplane-route-the-plane-hovered-on-the-dotted-line-travel-around-the-world);
+    background-size: cover;
+    background-position: center;
+}
